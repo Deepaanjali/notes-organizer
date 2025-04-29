@@ -1,7 +1,7 @@
 function addNote() {
     const noteText = document.getElementById('noteText').value.trim();
     if (noteText === '') {
-      alert('Please enter a note.');
+      alert('Please enter your note.');
       return;
     }
   
